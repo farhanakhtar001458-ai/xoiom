@@ -1,0 +1,16 @@
+# dependencies
+node_modules/
+
+# builds
+dist/
+
+# local data (the API reseeds this on first run)
+server/data/db.json
+server/data/db.json.tmp
+
+# misc
+.DS_Store
+*.log
+.env
+.env.*
+*.local
